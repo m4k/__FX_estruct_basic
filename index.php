@@ -48,8 +48,8 @@
     </div>
 </div>
 <div>
-    <div class="msgCenter">
-        <h2>OPERE COM QUEM ENTENDE<br>  
+    <div class="msgCenter hidden">
+        <h2><b>OPERE COM</b> QUEM ENTENDE<br>  
         OPERE COM A <b>FX TRADER</b></h2>
     </div>
 </div>
@@ -62,10 +62,12 @@
     </div>
     <nav>
 		<ul role="navigation" class="hidden">
-			<li><a href="#">work</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">resume</a></li>
-			<li><a href="#">contact</a></li>
+			<li><a href="#">home</a></li>
+			<li><a href="#">sobre</a></li>
+			<li><a href="#">para você</a></li>
+            <li><a href="#">para empresa</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">cotações e gráficos</a></li>
 		</ul>
 	</nav>
 </div>

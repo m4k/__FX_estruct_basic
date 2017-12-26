@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 /*start Style*/
+*{font-family: 'Montserrat', sans-serif;}
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -45,7 +47,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #2196f3;
   }
   
   .transition-loader {
@@ -263,3 +264,19 @@ body {
     left: 20px;
 }
 .logo_site img{max-width: 200px;padding: 20px 20px;filter: opacity(.9)}
+/*Msg Center*/
+.msgCenter{
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  color: #FFF;
+  padding: 0 100px;
+  text-align: center;
+  z-index: 80;
+  filter: opacity(.8)
+}
+.msgCenter h2{
+  line-height: .5in;letter-spacing: 1px;
+}
+.msgCenter h2 b{font-size: .5in;font-weight: 700;}
