@@ -206,7 +206,7 @@ body {
     transition-duration: 0.5s;
     text-decoration: none;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.5;
     width: 100%;
     display: block;
@@ -220,7 +220,7 @@ body {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
     left: 0;
@@ -263,7 +263,7 @@ body {
     top: 0;
     left: 20px;
 }
-.logo_site img{max-width: 200px;padding: 20px 20px;filter: opacity(.9)}
+.logo_site img{max-width: 200px;padding: 20px 20px;filter: opacity(1)}
 /*Msg Center*/
 .msgCenter{
   transform: translateY(-50%);
@@ -277,6 +277,8 @@ body {
   filter: opacity(.8)
 }
 .msgCenter h2{
-  line-height: .5in;letter-spacing: 1px;
+  line-height: .5in;letter-spacing: 1px;padding-bottom:20px; 
 }
 .msgCenter h2 b{font-size: .5in;font-weight: 700;}
+.msgCenter a{background: #FF0000;padding: 15px 28px;color: aliceblue;font-weight: 600;letter-spacing: 1px;border-radius: 5px;}
+.msgCenter a:hover{color: aliceblue;text-decoration: none;}

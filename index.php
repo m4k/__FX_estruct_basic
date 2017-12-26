@@ -51,6 +51,7 @@
     <div class="msgCenter hidden">
         <h2><b>OPERE COM</b> QUEM ENTENDE<br>  
         OPERE COM A <b>FX TRADER</b></h2>
+        <a href="#">CADASTRO</a>
     </div>
 </div>
 <div class="menu-section">
