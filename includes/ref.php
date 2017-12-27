@@ -24,4 +24,6 @@
     $base = 'http://fxtrader.com.br/';
   }
   define("URL_BASE", $base);
+  define("DIR_HEADER","./includes/header/");
+  define("LOGO","FXtrader2.png");
 ?> 

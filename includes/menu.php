@@ -9,7 +9,7 @@
 		<li><a href="<?php echo URL_BASE; ?>sobre">sobre</a></li>
 		<li><a href="<?php echo URL_BASE; ?>para-voce">para você</a></li>
         <li><a href="<?php echo URL_BASE; ?>para-empresa">para empresa</a></li>
-        <li><a href="<?php echo URL_BASE; ?>contato">contato</a></li>
+        <li><a href="<?php echo URL_BASE; ?>contato.php">contato</a></li>
         <li><a href="<?php echo URL_BASE; ?>cotacao-e-graficos">cotações e gráficos</a></li>
 	</ul>
 </nav>
