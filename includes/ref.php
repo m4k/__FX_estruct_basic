@@ -17,3 +17,11 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
   crossorigin="anonymous">
+<?php 
+  if (($_SERVER['REMOTE_ADDR'] == '127.0.0.1') or ($_SERVER['REMOTE_ADDR'] == '::1')) {
+    $base = './';
+  }else{
+    $base = 'http://fxtrader.com.br/';
+  }
+  define("URL_BASE", $base);
+?> 

@@ -51,7 +51,7 @@
     <div class="msgCenter hidden">
         <h2><b>OPERE COM</b> QUEM ENTENDE<br>  
         OPERE COM A <b>FX TRADER</b></h2>
-        <a href="#">CADASTRO</a>
+        <a href="<?php echo URL_BASE; ?>cadastro">CADASTRO</a>
     </div>
 </div>
 <div class="menu-section">
@@ -61,14 +61,5 @@
         <div class="three"></div>
         <div class="text_menu">menu</div>
     </div>
-    <nav>
-		<ul role="navigation" class="hidden">
-			<li><a href="#">home</a></li>
-			<li><a href="#">sobre</a></li>
-			<li><a href="#">para você</a></li>
-            <li><a href="#">para empresa</a></li>
-            <li><a href="#">contato</a></li>
-            <li><a href="#">cotações e gráficos</a></li>
-		</ul>
-	</nav>
+    <?php include_once"./includes/menu.php";?>
 </div>
