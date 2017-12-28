@@ -1,6 +1,6 @@
 	<div class="centred-text transition">
 		<h1>Obrigado!</h1>
-		<img src="http://antoniodinardo.com/TEST/mailform/mail.png">
+		<img src="<?php echo DIR_BOBY;?>img/mail.png">
 	</div>
 
 	<div style="display: block;" class="form-container contato">
@@ -30,7 +30,7 @@
 				</div>
 				<div class="button-overlay"></div>
 				<div class="button">
-					<img src="http://antoniodinardo.com/TEST/mailform/plane.png">
+					<img src="<?php echo DIR_BOBY;?>img/plane.png">
 					<span>Enviar</span>
 				</div>
 			</div>

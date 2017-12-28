@@ -20,13 +20,13 @@
 <?php include_once"./includes/loader.php";?>
 <div>
     <div class="msgCenter hidden">
-        <h2>Quem <b>somos</b></h2>
+        <h2><b>Cotações</b> & <b>gráficos</b></h2>
         <a href="#b2" class="fa fa-arrow-down"></a>
     </div>
 </div>
 <div id="b2">
     <div class="msgCenterShowSample hidden">
-        <?php include_once"./includes/content_body/cnt-sobre.php";?>
+        <?php include_once"./includes/content_body/cnt-cotacao-e-graficos.php";?>
     </div>
 </div>
 <?php include_once"./includes/menu-full.php";?>

@@ -61,23 +61,3 @@ function scaleBannerVideoSize(element){
 
     });
 }
-/* Mensagem */
-$(document).ready(function() {
-    $(".menu-toggle").on('click', function() {
-        $(this).toggleClass("on");
-        $('.menu-section').toggleClass("on");
-        $("nav ul").toggleClass('hidden');
-    });
-    setTimeout(function(){actionLoader()}, newFunction());
-});
-function actionLoader(){
-    $('.transition-loader').hide();
-    const newLocal = 'animated fadeInDown';
-
-    $('.msgCenter').removeClass('hidden').addClass(newLocal).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(this).removeClass('animated fadeInDown')
-    });
-}
-function newFunction() {
-    return 3000;
-}
