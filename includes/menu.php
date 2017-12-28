@@ -6,7 +6,7 @@
 <nav>
 	<ul role="navigation" class="hidden">
 		<li><a href="<?php echo URL_BASE; ?>">home</a></li>
-		<li><a href="<?php echo URL_BASE; ?>sobre">sobre</a></li>
+		<li><a href="<?php echo URL_BASE; ?>sobre.php">sobre</a></li>
 		<li><a href="<?php echo URL_BASE; ?>para-voce">para você</a></li>
         <li><a href="<?php echo URL_BASE; ?>para-empresa">para empresa</a></li>
         <li><a href="<?php echo URL_BASE; ?>contato.php">contato</a></li>

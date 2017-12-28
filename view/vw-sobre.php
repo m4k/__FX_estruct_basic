@@ -20,7 +20,7 @@
 <?php include_once"./includes/loader.php";?>
 <div>
     <div class="msgCenter hidden">
-        <?php include_once"./includes/content_body/cnt-contato.php";?>
+        <?php include_once"./includes/content_body/cnt-sobre.php";?>
     </div>
 </div>
 <?php include_once"./includes/menu-full.php";?>
