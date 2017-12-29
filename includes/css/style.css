@@ -726,5 +726,7 @@ body {
 #sobre-bottom .itens-sobre p{padding: 5px 0 5px 0;color: #f2f2f2;font-weight: 600;letter-spacing: .8px;}
 #sobre-bottom a{color: #f2f2f2;font-size: 25px;padding: 0 15px}
 /*Cotação e gráfico*/
-#cotac-graf,#cotac-graf2{padding: 60px 0 10px 0;}
-#cotac-graf2 .col-md-12{padding: 20px 0 40px 0;}
+#cotac-graf{padding: 60px 0;}
+#cotac-graf h5{padding: 0 0 20px 0;}
+.setas{text-align:center;}
+.setas a{padding: 40px;font-size: 22px;cursor: pointer;}

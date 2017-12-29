@@ -7,6 +7,7 @@
 <script src="./includes/js/script_header.js"></script>
 <script src="./includes/js/script_body.js"></script>
 <script src="./includes/js/script_def.js"></script>
+<script src="./includes/js/navForm.js"></script>
 <link rel="stylesheet" href="./includes/css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

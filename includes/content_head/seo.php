@@ -1,6 +1,7 @@
 <?php
     define("DIR","./includes/content_head/img_icon");
 ?>
+<title>FX Trader</title>
 <link rel="apple-touch-icon" sizes="57x57" href="<?php echo DIR;?>/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="<?php echo DIR;?>/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="<?php echo DIR;?>/apple-icon-72x72.png">
