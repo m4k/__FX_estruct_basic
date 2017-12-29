@@ -29,7 +29,7 @@
 </div>
 <div id="fx_assessoria">
     <div class="container">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <h5><b>ASSESSORIA DE CÂMBIO E COMEX</b></h5>
 
             <p>Além de fornecer informações atualizadas sobre as tendências das moedas 
@@ -44,14 +44,14 @@
                 de forma cooperada, no intuito de oferecer a seus clientes segurança na solução de suas 
                 demandas.</p>
         </div>
-        <div class="col-md-4">
-            <img src="<?php echo DIR_BOBY;?>img/cambio2.png" alt="" width="100%">
+        <div class="col-md-5">
+            <img src="<?php echo DIR_BOBY;?>img/trade.jpg" alt="" width="100%">
         </div>
     </div>
 </div>
 <div id="fx_exportacao">
     <div class="container">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <h5><b>PERFORMANCE DE EXPORTAÇÃO</b></h5>
 
             <p>Consiste na compra do direito de exportação, de uma empresa exportadora para outra, 
@@ -64,7 +64,9 @@
                 mas deseja captar ACC (Adiantamento de Contrato de Câmbio) ou Pré-Pagamento, 
                 por tratarem-se de fontes de captação de recurso barato, ou;<br>
             • Quando uma empresa exportadora já possui um contrato de câmbio fechado que a obriga 
-            a embarcar a mercadoria que não possui. Neste caso há a hipótese do cancelamento do contrato 
+            a embarcar a mercadoria que não possui. 
+            </p>
+            <p>Neste caso há a hipótese do cancelamento do contrato 
             de câmbio, entretanto, esta alternativa gera impostos e multas bastante superiores 
             ao custo da Performance de Exportação.</p>
             <p>
@@ -72,20 +74,20 @@
 
             <p>• Captação de recursos com custo mais baixo que os praticados no mercado interno;<br>
             • Troca de dívidas de curto prazo por médio ou longo prazos;<br>
-            • Arbitragem comercial (exportador contrata ACC/Pré-Pagamento com objetivo de exportar. 
-            Em dado momento o mercado interno está pagando preço melhor que a exportação. 
+            • Arbitragem comercial (exportador contrata ACC/Pré-Pagamento com objetivo de exportar.</p>
+            <p>Em dado momento o mercado interno está pagando preço melhor que a exportação. 
             Então o exportador compra a Performance para liquidar seu ACC/Pré-Pagamento 
             e vender sua mercadoria no mercado interno).
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
             <img src="<?php echo DIR_BOBY;?>img/exportacao-industria-moveis-formobile.jpg" alt="" width="100%">
         </div>
     </div>
 </div>
 <div id="fx_finance">
     <div class="container">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <h5><b>TRADE FINANCE</b></h5>
 
             <p>Trade Finance é um termo de origem inglesa usado para definir uma gama de serviços 
@@ -104,8 +106,8 @@
             • Financiamento Externo;<br>
             • Garantias, Capital de Giro, entre outros.</p>
         </div>
-        <div class="col-md-4">
-            <img src="<?php echo DIR_BOBY;?>img/cambio2.png" alt="" width="100%">
+        <div class="col-md-5">
+            <img src="<?php echo DIR_BOBY;?>img/Invoice_Finance.jpg" alt="" width="100%">
         </div>
     </div>
 </div>

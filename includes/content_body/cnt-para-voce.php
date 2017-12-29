@@ -20,7 +20,7 @@
             </p>
         </div>
         <div class="col-md-4">
-            <img src="<?php echo DIR_BOBY;?>img/cambio2.png" alt="" width="100%">
+            <img src="<?php echo DIR_BOBY;?>img/cambio.png" alt="" width="100%">
         </div>
     </div>
 </div>    

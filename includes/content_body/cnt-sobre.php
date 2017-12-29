@@ -1,4 +1,4 @@
-<div>
+<div id="sobre">
     <div class="container">
         <div class="col-md-12">
             <h2>Quem <b>somos</b></h2>
@@ -30,7 +30,18 @@
                 de buscar sempre o melhor resultado.
             </p>
         </div>
-
-        </p>
+    </div>  
+</div>
+<div id="sobre-bottom">
+    <div class="container">
+        <div class="col-md-5 itens-sobre">
+            <p><a href="<?php echo URL_BASE; ?>/para-empresa.php#fx_finance" class="fa fa-caret-right"></a> Trader Finance</p>   
+            <p><a href="<?php echo URL_BASE; ?>/para-empresa.php#fx_intermediacao" class="fa fa-caret-right"></a> Intermediação de Câmbio</p>
+            <p><a href="<?php echo URL_BASE; ?>/para-empresa.php#fx_assessoria" class="fa fa-caret-right"></a> Assessoria de Câmbio Comex</p>
+            <p><a href="<?php echo URL_BASE; ?>/para-empresa.php#fx_exportacao" class="fa fa-caret-right"></a> Performace de Exportação</p>
+        </div>
+        <div class="col-md-7">
+            <img src="<?php echo DIR_BOBY;?>img/FXtrader_b2.png" alt="" width="100%">
+        </div>
     </div>   
 </div>

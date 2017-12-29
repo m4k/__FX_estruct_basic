@@ -20,7 +20,13 @@
 <?php include_once"./includes/loader.php";?>
 <div>
     <div class="msgCenter hidden">
-        <?php include_once"./includes/content_body/cnt-contato.php";?>
+        <?php 
+            if ($iphone || $android || $palmpre || $ipod || $berry || $symbian == true){
+                echo"<a href='mailto:atendimento@fxtrader.com.br?Subject=contato' target='_top'>atendimento@fxtrader.com.br</a>";
+            }else{
+                include_once"./includes/content_body/cnt-contato.php";
+            }
+        ?>
     </div>
 </div>
 <?php include_once"./includes/menu-full.php";?>

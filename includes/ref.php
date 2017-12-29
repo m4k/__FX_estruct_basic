@@ -29,4 +29,25 @@
   define("DIR_HEADER","./includes/header/");
   define("DIR_BOBY","./includes/");
   define("LOGO","FXtrader2.png");
+
+  $iphone     = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+  $ipad       = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
+  $android    = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+  $palmpre    = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+  $berry      = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+  $ipod       = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+  $symbian    = strpos($_SERVER['HTTP_USER_AGENT'],"Symbian");
 ?> 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a45a065d7591465c706705d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->

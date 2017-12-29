@@ -702,16 +702,29 @@ body {
 }
 /*fx_card*/
 #fx_card{
-    background: #e2e9ecd0;
+    background: #eff3f5e8;
     padding: 60px 0;
 }
 /*voce*/
 #fx_cambio,#fx_deal{padding: 60px 0;}
 #fx_card h2,#fx_cambio h2,#fx_deal h2{padding: 10px 0 20px 0;}
 #fx_card h2 b,#fx_cambio h2 b,#fx_deal h2 b{color:#FF0000;}
+#fx_card img,#fx_cambio img,#fx_deal img{max-width: 320px;padding: 60px 0;}
 /*empresa*/
 #fx_intermediacao h2{padding: 10px 0 20px 0;}
 #fx_intermediacao h2 b{color:#FF0000;}
 #fx_intermediacao h5{padding: 20px 0 10px 0;}
 #fx_intermediacao,#fx_exportacao,#fx_assessoria,#fx_finance{padding: 60px 0;}
-#fx_assessoria,#fx_finance{background: #e2e9ecd0;}
+#fx_intermediacao h5,#fx_exportacao h5,#fx_assessoria h5,#fx_finance h5{padding: 10px 0 20px 0!important;}
+#fx_intermediacao img,#fx_exportacao img,#fx_assessoria img,#fx_finance img{max-width: 420px;padding: 60px 0;}
+#fx_assessoria,#fx_finance{background: #eff3f5e8;}
+/*sobre*/
+#sobre{padding: 60px 0 80px 0;}
+#sobre h2{padding: 10px 0 20px 0;}
+#sobre h2 b{color:#FF0000;}
+#sobre-bottom .itens-sobre{padding: 50px 50px;background: #FF0000;}
+#sobre-bottom .itens-sobre p{padding: 5px 0 5px 0;color: #f2f2f2;font-weight: 600;letter-spacing: .8px;}
+#sobre-bottom a{color: #f2f2f2;font-size: 25px;padding: 0 15px}
+/*Cotação e gráfico*/
+#cotac-graf,#cotac-graf2{padding: 60px 0 10px 0;}
+#cotac-graf2 .col-md-12{padding: 20px 0 40px 0;}
