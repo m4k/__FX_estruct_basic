@@ -6,6 +6,7 @@ $(document).ready(function() {
         $("nav ul").toggleClass('hidden');
     });
     setTimeout(function(){actionLoader(),actionLoader2()}, newFunction());
+    deslizar();
 });
 function actionLoader(){
     $('.transition-loader').hide();
@@ -26,4 +27,15 @@ function actionLoader2(){
 }
 function newFunction() {
     return 3000;
+}
+
+/* Deslizar */
+function deslizar(){
+    var $doc = $('html, body');
+    $('a').click(function() {
+        $doc.animate({
+              scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+        return false;
+    });
 }

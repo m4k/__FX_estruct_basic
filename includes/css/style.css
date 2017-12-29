@@ -700,3 +700,18 @@ body {
     font-weight: 300;
     display: none;
 }
+/*fx_card*/
+#fx_card{
+    background: #e2e9ecd0;
+    padding: 60px 0;
+}
+/*voce*/
+#fx_cambio,#fx_deal{padding: 60px 0;}
+#fx_card h2,#fx_cambio h2,#fx_deal h2{padding: 10px 0 20px 0;}
+#fx_card h2 b,#fx_cambio h2 b,#fx_deal h2 b{color:#FF0000;}
+/*empresa*/
+#fx_intermediacao h2{padding: 10px 0 20px 0;}
+#fx_intermediacao h2 b{color:#FF0000;}
+#fx_intermediacao h5{padding: 20px 0 10px 0;}
+#fx_intermediacao,#fx_exportacao,#fx_assessoria,#fx_finance{padding: 60px 0;}
+#fx_assessoria,#fx_finance{background: #e2e9ecd0;}
