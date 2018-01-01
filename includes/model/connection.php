@@ -5,7 +5,7 @@
   define("U_DB_NAME","");
 
   //$user     = "luis_app";
-  //$pass     = "LuismyDB42";
+  //$pass     = "";
   //$db_name  = "luis_page";
 
   $conn = mysqli_connect(U_HOST, U_USER, U_PASS, U_DB_NAME);
