@@ -1,3 +1,3 @@
 <?php 
-define('GUSER', 'luisouti65940@gmail.com');
-define('GPWD', 'mudar123456');
+define('M_USER', 'luisouti65940@gmail.com');
+define('M_PWD', 'mudar123456');

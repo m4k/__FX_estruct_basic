@@ -1,24 +1,26 @@
 <?php
-date_default_timezone_set('Etc/UTC');
+//date_default_timezone_set('Etc/UTC');
+date_default_timezone_set('America/Sao_Paulo');
 include_once"./PHPMailer/class.phpmailer.php";
 
-$mail = new PHPMailer();
+$mail               = new PHPMailer();
 
 include_once"./acesso.php";
 
 //$para_dest = "outi.luisaugusto@gmail.com"; $nome_dest = "Luis Outi";
 //$para_dest = "markos.edu@live.com"; $nome_dest = "Marcos Eduardo";
-$para_dest = "luisouti65940@gmail.com"; $nome_dest = "Luis";
+$para_dest          = "M_USER"; 
+$nome_dest          = "FX Trader";
 
 // Define os dados do servidor e tipo de conexão
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->IsSMTP(true); // Define que a mensagem será SMTP
-$mail->Host = "smtp.gmail.com"; // Endereço do servidor SMTP
-$mail->Port = 465;
-$mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-$mail->SMTPSecure = 'ssl';
-$mail->Username = GUSER; // Usuário do servidor SMTP
-$mail->Password = GPWD; // Senha do servidor SMTP
+$mail->Host         = "smtp.gmail.com"; // Endereço do servidor SMTP
+$mail->Port         = 465;
+$mail->SMTPAuth     = true; // Usa autenticação SMTP? (opcional)
+$mail->SMTPSecure   = 'ssl';
+$mail->Username     = M_USER; // Usuário do servidor SMTP
+$mail->Password     = M_PWD; // Senha do servidor SMTP
 // Define o remetente
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->From = $email; // Seu e-mail
@@ -31,14 +33,14 @@ $mail->AddAddress($para_dest, $nome_dest);
 $mail->IsHTML(true); // Define que o e-mail será enviado como HTML
 // Define a mensagem (Texto e Assunto)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->Subject  = "Lead do dia ".$data_lead; // Assunto da mensagem
-$mail->Body = $msg;
-$mail->AltBody = $msg;
+$mail->Subject      = "Lead do dia ".$data_lead; // Assunto da mensagem
+$mail->Body         = $msg;
+$mail->AltBody      = $msg;
 // Define os anexos (opcional)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //$mail->AddAttachment("c:/temp/documento.pdf", "novo_nome.pdf");  // Insere um anexo
 // Envia o e-mail
-$enviado = $mail->Send();
+$enviado            = $mail->Send();
 // Limpa os destinatários e os anexos
 $mail->ClearAllRecipients();
 $mail->ClearAttachments();
