@@ -5,7 +5,7 @@
 
 	<div style="display: block;" class="form-container contato">
 		<div class="close-form">x</div>
-		<form class="form-inner">
+		<form class="form-inner" method="post" onsubmit="gravar(); return false;" id="form">
 			<div class="form-left">	
 			
 				<div class="label-line">
@@ -29,7 +29,7 @@
 						Mensagem enviada
 				</div>
 				<div class="button-overlay"></div>
-				<div class="button">
+				<div class="button" onClick="javascript:this.form.submit();">
 					<img src="<?php echo DIR_BOBY;?>img/plane.png">
 					<span>Enviar</span>
 				</div>
